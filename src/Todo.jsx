@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addTodo, toggleComplete, deleteTodo } from "./redux/todoSlice";
 
 import Plus from './assets/plus.svg';
-import TodoItem from "./components/TodoItem";
+import TodoItem from "./components/TodoItem"; 
 
 const Todo = () => {
     const [text, setText] = useState('');
